@@ -1,0 +1,37 @@
+Feature,Importance
+Amount,0.13340711131023408
+BMI,0.1286949525729329
+Age,0.11828780860636992
+DoctorExperience,0.09100618058235928
+DepartmentWorkloadIndex,0.08962507684846413
+DiseaseSeverityScore,0.030349734039199768
+ProvinceName_Southern,0.018848206242350205
+Gender_Male,0.017505657328077955
+Diagnosis_Hypertension,0.017194756010914105
+VisitType_Follow-up,0.016725532519795423
+LabResult_nan,0.015748022038862046
+Diagnosis_Diabetes,0.01571300792665891
+ChronicCondition_Hypertension,0.015361157140076515
+VisitType_Consultation,0.015331580144020977
+LabResult_Abnormal,0.015176852068469786
+Gender_Female,0.014767808631373735
+VisitType_Emergency,0.014757565967281347
+ChronicCondition_nan,0.014742640154929026
+Diagnosis_Upper Respiratory Infection,0.014388369115118763
+LabResult_Normal,0.013857173438459271
+FacilityType_District Hospital,0.013833307478674
+ChronicCondition_Asthma,0.013768408265603023
+Diagnosis_Malaria,0.013759129725385226
+ChronicCondition_Diabetes,0.013570920125732916
+Diagnosis_Gastritis,0.013439570876841568
+ProvinceName_Western,0.013269805712461521
+ProvinceName_Kigali City,0.013040572424940175
+ProvinceName_Eastern,0.012368196275175526
+FacilityType_General Hospital,0.011530852857941023
+ProvinceName_Northern,0.011506326380906434
+Ownership_Faith Based,0.009923775352808507
+Ownership_Private,0.009922592882060368
+Ownership_Government,0.009813247115724323
+Ownership_NGO,0.009774952669387679
+FacilityType_Provincial Hospital,0.009553683684374974
+FacilityType_Referral Hospital,0.00943546548603465

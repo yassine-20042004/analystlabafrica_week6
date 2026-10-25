@@ -1,0 +1,448 @@
+{
+    "Task1_Patient_Volume_Forecast": {
+        "Model": "Holt-Winters Additive Exponential Smoothing",
+        "History_Total_Visits_2026": 60809,
+        "Forecast_Total_Visits_2027": 51166,
+        "Annual_Growth_Rate_%": -15.86,
+        "Train_MAE": 946.55,
+        "Train_RMSE": 1154.35,
+        "Train_MAPE_%": 19.69,
+        "Forecast_Table": [
+            {
+                "Month": "2027-01",
+                "ForecastedVisits": 4632,
+                "LowerBound_95%": 2370,
+                "UpperBound_95%": 6895
+            },
+            {
+                "Month": "2027-02",
+                "ForecastedVisits": 4565,
+                "LowerBound_95%": 2303,
+                "UpperBound_95%": 6828
+            },
+            {
+                "Month": "2027-03",
+                "ForecastedVisits": 4498,
+                "LowerBound_95%": 2236,
+                "UpperBound_95%": 6761
+            },
+            {
+                "Month": "2027-04",
+                "ForecastedVisits": 4431,
+                "LowerBound_95%": 2169,
+                "UpperBound_95%": 6694
+            },
+            {
+                "Month": "2027-05",
+                "ForecastedVisits": 4364,
+                "LowerBound_95%": 2102,
+                "UpperBound_95%": 6627
+            },
+            {
+                "Month": "2027-06",
+                "ForecastedVisits": 4297,
+                "LowerBound_95%": 2035,
+                "UpperBound_95%": 6560
+            },
+            {
+                "Month": "2027-07",
+                "ForecastedVisits": 4230,
+                "LowerBound_95%": 1968,
+                "UpperBound_95%": 6493
+            },
+            {
+                "Month": "2027-08",
+                "ForecastedVisits": 4163,
+                "LowerBound_95%": 1901,
+                "UpperBound_95%": 6426
+            },
+            {
+                "Month": "2027-09",
+                "ForecastedVisits": 4097,
+                "LowerBound_95%": 1834,
+                "UpperBound_95%": 6359
+            },
+            {
+                "Month": "2027-10",
+                "ForecastedVisits": 4030,
+                "LowerBound_95%": 1767,
+                "UpperBound_95%": 6292
+            },
+            {
+                "Month": "2027-11",
+                "ForecastedVisits": 3963,
+                "LowerBound_95%": 1700,
+                "UpperBound_95%": 6225
+            },
+            {
+                "Month": "2027-12",
+                "ForecastedVisits": 3896,
+                "LowerBound_95%": 1633,
+                "UpperBound_95%": 6158
+            }
+        ]
+    },
+    "Task2_Revenue_Forecast": {
+        "Model": "Holt-Winters Additive Exponential Smoothing",
+        "History_Total_Revenue_2026_RWF": 1132677500,
+        "Forecast_Total_Revenue_2027_RWF": 1312865395,
+        "Annual_Revenue_Growth_%": 15.91,
+        "Train_MAE_RWF": 19338980.35,
+        "Train_RMSE_RWF": 24516042.66,
+        "Train_MAPE_%": 20.46,
+        "Forecast_Table": [
+            {
+                "Month": "2027-01",
+                "ForecastedRevenue_RWF": 102500657,
+                "LowerBound_95%_RWF": 54449311,
+                "UpperBound_95%_RWF": 150552004
+            },
+            {
+                "Month": "2027-02",
+                "ForecastedRevenue_RWF": 103756074,
+                "LowerBound_95%_RWF": 55704728,
+                "UpperBound_95%_RWF": 151807420
+            },
+            {
+                "Month": "2027-03",
+                "ForecastedRevenue_RWF": 105011491,
+                "LowerBound_95%_RWF": 56960145,
+                "UpperBound_95%_RWF": 153062837
+            },
+            {
+                "Month": "2027-04",
+                "ForecastedRevenue_RWF": 106266908,
+                "LowerBound_95%_RWF": 58215561,
+                "UpperBound_95%_RWF": 154318254
+            },
+            {
+                "Month": "2027-05",
+                "ForecastedRevenue_RWF": 107522324,
+                "LowerBound_95%_RWF": 59470978,
+                "UpperBound_95%_RWF": 155573671
+            },
+            {
+                "Month": "2027-06",
+                "ForecastedRevenue_RWF": 108777741,
+                "LowerBound_95%_RWF": 60726395,
+                "UpperBound_95%_RWF": 156829088
+            },
+            {
+                "Month": "2027-07",
+                "ForecastedRevenue_RWF": 110033158,
+                "LowerBound_95%_RWF": 61981812,
+                "UpperBound_95%_RWF": 158084504
+            },
+            {
+                "Month": "2027-08",
+                "ForecastedRevenue_RWF": 111288575,
+                "LowerBound_95%_RWF": 63237229,
+                "UpperBound_95%_RWF": 159339921
+            },
+            {
+                "Month": "2027-09",
+                "ForecastedRevenue_RWF": 112543992,
+                "LowerBound_95%_RWF": 64492645,
+                "UpperBound_95%_RWF": 160595338
+            },
+            {
+                "Month": "2027-10",
+                "ForecastedRevenue_RWF": 113799408,
+                "LowerBound_95%_RWF": 65748062,
+                "UpperBound_95%_RWF": 161850755
+            },
+            {
+                "Month": "2027-11",
+                "ForecastedRevenue_RWF": 115054825,
+                "LowerBound_95%_RWF": 67003479,
+                "UpperBound_95%_RWF": 163106171
+            },
+            {
+                "Month": "2027-12",
+                "ForecastedRevenue_RWF": 116310242,
+                "LowerBound_95%_RWF": 68258896,
+                "UpperBound_95%_RWF": 164361588
+            }
+        ]
+    },
+    "Task3_Hospital_Admission_Prediction": {
+        "Benchmarks": [
+            {
+                "Algorithm": "Logistic_Regression",
+                "Accuracy": 0.5104,
+                "Precision": 0.118,
+                "Recall": 0.4932,
+                "F1_Score": 0.1905,
+                "ROC_AUC": 0.5066,
+                "ConfusionMatrix": [
+                    [
+                        566,
+                        538
+                    ],
+                    [
+                        74,
+                        72
+                    ]
+                ]
+            },
+            {
+                "Algorithm": "Random_Forest",
+                "Accuracy": 0.8752,
+                "Precision": 0.1429,
+                "Recall": 0.0137,
+                "F1_Score": 0.025,
+                "ROC_AUC": 0.4877,
+                "ConfusionMatrix": [
+                    [
+                        1092,
+                        12
+                    ],
+                    [
+                        144,
+                        2
+                    ]
+                ]
+            },
+            {
+                "Algorithm": "Gradient_Boosting",
+                "Accuracy": 0.8808,
+                "Precision": 0.2,
+                "Recall": 0.0068,
+                "F1_Score": 0.0132,
+                "ROC_AUC": 0.4824,
+                "ConfusionMatrix": [
+                    [
+                        1100,
+                        4
+                    ],
+                    [
+                        145,
+                        1
+                    ]
+                ]
+            }
+        ],
+        "Best_Model": "Logistic_Regression",
+        "Top_5_Predictors": [
+            {
+                "Feature": "Amount",
+                "Importance": 0.13340711131023408
+            },
+            {
+                "Feature": "BMI",
+                "Importance": 0.1286949525729329
+            },
+            {
+                "Feature": "Age",
+                "Importance": 0.11828780860636992
+            },
+            {
+                "Feature": "DoctorExperience",
+                "Importance": 0.09100618058235928
+            },
+            {
+                "Feature": "DepartmentWorkloadIndex",
+                "Importance": 0.08962507684846413
+            }
+        ]
+    },
+    "Task4_Satisfaction_Prediction": {
+        "Benchmarks": [
+            {
+                "Algorithm": "Ridge_Regression",
+                "RMSE": 1.4237,
+                "MAE": 1.2211,
+                "R2_Score": -0.0228
+            },
+            {
+                "Algorithm": "Random_Forest_Regressor",
+                "RMSE": 1.4164,
+                "MAE": 1.2118,
+                "R2_Score": -0.0124
+            },
+            {
+                "Algorithm": "Gradient_Boosting_Regressor",
+                "RMSE": 1.4258,
+                "MAE": 1.2242,
+                "R2_Score": -0.0259
+            }
+        ],
+        "Best_Model": "Random_Forest_Regressor"
+    },
+    "Task5_Department_Workload_Forecast": [
+        {
+            "Department": "Cardiology",
+            "Current_2026_Visits": 6616,
+            "Forecasted_2027_Visits": 5567,
+            "Projected_Net_Growth": -1049,
+            "Workload_Share_%": 10.88,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "Radiology",
+            "Current_2026_Visits": 6385,
+            "Forecasted_2027_Visits": 5372,
+            "Projected_Net_Growth": -1013,
+            "Workload_Share_%": 10.5,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "Obstetrics & Gynecology",
+            "Current_2026_Visits": 6215,
+            "Forecasted_2027_Visits": 5229,
+            "Projected_Net_Growth": -986,
+            "Workload_Share_%": 10.22,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "Laboratory",
+            "Current_2026_Visits": 6069,
+            "Forecasted_2027_Visits": 5106,
+            "Projected_Net_Growth": -963,
+            "Workload_Share_%": 9.98,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "Emergency",
+            "Current_2026_Visits": 6020,
+            "Forecasted_2027_Visits": 5065,
+            "Projected_Net_Growth": -955,
+            "Workload_Share_%": 9.9,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "Pediatrics",
+            "Current_2026_Visits": 5971,
+            "Forecasted_2027_Visits": 5025,
+            "Projected_Net_Growth": -946,
+            "Workload_Share_%": 9.82,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "Internal Medicine",
+            "Current_2026_Visits": 5959,
+            "Forecasted_2027_Visits": 5014,
+            "Projected_Net_Growth": -945,
+            "Workload_Share_%": 9.8,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "Pharmacy",
+            "Current_2026_Visits": 5959,
+            "Forecasted_2027_Visits": 5014,
+            "Projected_Net_Growth": -945,
+            "Workload_Share_%": 9.8,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "Surgery",
+            "Current_2026_Visits": 5935,
+            "Forecasted_2027_Visits": 4994,
+            "Projected_Net_Growth": -941,
+            "Workload_Share_%": 9.76,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        },
+        {
+            "Department": "ICU",
+            "Current_2026_Visits": 5680,
+            "Forecasted_2027_Visits": 4779,
+            "Projected_Net_Growth": -901,
+            "Workload_Share_%": 9.34,
+            "Staffing_Recommendation": "Maintain baseline staffing"
+        }
+    ],
+    "Clustering_Analysis": {
+        "Patient_Clusters": [
+            {
+                "PatientCluster": 0,
+                "Size": 2042,
+                "MeanAge": 48.551420176297746,
+                "MeanBMI": 30.108423114593535,
+                "AdmissionRate": 0.0416258570029383,
+                "MeanBilling": 226276.53379040156,
+                "SeverityScore": 2.099902056807052,
+                "HighRiskRate": 1.0,
+                "ClusterLabel": "Cluster 0: Young & Mild Outpatients"
+            },
+            {
+                "PatientCluster": 1,
+                "Size": 2076,
+                "MeanAge": 46.536127167630056,
+                "MeanBMI": 29.938583815028903,
+                "AdmissionRate": 0.04190751445086705,
+                "MeanBilling": 81814.19797687861,
+                "SeverityScore": 1.9961464354527938,
+                "HighRiskRate": 1.0,
+                "ClusterLabel": "Cluster 1: Chronic & Geriatric High-Risk"
+            },
+            {
+                "PatientCluster": 2,
+                "Size": 502,
+                "MeanAge": 29.00796812749004,
+                "MeanBMI": 30.226494023904383,
+                "AdmissionRate": 0.06772908366533864,
+                "MeanBilling": 160766.46613545818,
+                "SeverityScore": 1.4780876494023905,
+                "HighRiskRate": 0.0,
+                "ClusterLabel": "Cluster 2: Moderate Surgical / Admitted Patients"
+            },
+            {
+                "PatientCluster": 3,
+                "Size": 380,
+                "MeanAge": 47.05,
+                "MeanBMI": 29.83421052631579,
+                "AdmissionRate": 1.0,
+                "MeanBilling": 154015.04210526316,
+                "SeverityScore": 2.0157894736842104,
+                "HighRiskRate": 0.9315789473684211,
+                "ClusterLabel": "Cluster 3: Acute Emergency & High Cost"
+            }
+        ],
+        "Facility_Clusters_Count": 3
+    },
+    "PCA_Analysis": {
+        "Explained_Variance": [
+            {
+                "Principal_Component": "PC1",
+                "Explained_Variance_Ratio": 0.1311,
+                "Cumulative_Variance_Ratio": 0.1311
+            },
+            {
+                "Principal_Component": "PC2",
+                "Explained_Variance_Ratio": 0.1289,
+                "Cumulative_Variance_Ratio": 0.26
+            },
+            {
+                "Principal_Component": "PC3",
+                "Explained_Variance_Ratio": 0.1284,
+                "Cumulative_Variance_Ratio": 0.3884
+            },
+            {
+                "Principal_Component": "PC4",
+                "Explained_Variance_Ratio": 0.1259,
+                "Cumulative_Variance_Ratio": 0.5143
+            },
+            {
+                "Principal_Component": "PC5",
+                "Explained_Variance_Ratio": 0.124,
+                "Cumulative_Variance_Ratio": 0.6383
+            },
+            {
+                "Principal_Component": "PC6",
+                "Explained_Variance_Ratio": 0.1222,
+                "Cumulative_Variance_Ratio": 0.7605
+            },
+            {
+                "Principal_Component": "PC7",
+                "Explained_Variance_Ratio": 0.1217,
+                "Cumulative_Variance_Ratio": 0.8822
+            },
+            {
+                "Principal_Component": "PC8",
+                "Explained_Variance_Ratio": 0.1178,
+                "Cumulative_Variance_Ratio": 1.0
+            }
+        ],
+        "PC1_and_PC2_Cumulative_Variance_%": 26.0
+    }
+}

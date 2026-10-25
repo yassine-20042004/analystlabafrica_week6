@@ -1,0 +1,96 @@
+{
+    "Pairwise_Correlations": {
+        "Age_vs_Admission": {
+            "Correlation": 0.0215,
+            "P_Value": 0.12899,
+            "Type": "Point-Biserial"
+        },
+        "Age_vs_Billing": {
+            "Correlation": -0.0025,
+            "P_Value": 0.85923,
+            "Type": "Pearson"
+        },
+        "Severity_vs_LengthOfStay": {
+            "Correlation": -0.028,
+            "P_Value": 0.49944,
+            "Type": "Spearman (Admitted)"
+        },
+        "DepartmentWorkload_vs_Satisfaction": {
+            "Correlation": -0.0121,
+            "P_Value": 0.61318,
+            "Type": "Pearson"
+        },
+        "FacilityRevenue_vs_PatientVolume": {
+            "Correlation": 0.8964,
+            "P_Value": 0.0,
+            "Type": "Pearson"
+        }
+    },
+    "Hypothesis_Tests": {
+        "Hypothesis_Test_1": {
+            "Name": "Two-Sample Welch's T-Test: Insured vs Uninsured Patient Billing Amounts",
+            "Business_Question": "Do insured patients incur different healthcare billing amounts compared to uninsured patients?",
+            "H0": "Mean billing amount for insured patients is equal to uninsured patients (mu_insured = mu_uninsured)",
+            "H1": "Mean billing amount for insured patients differs significantly from uninsured patients (mu_insured != mu_uninsured)",
+            "Sample_Size_Insured": 3521,
+            "Sample_Size_Uninsured": 1479,
+            "Mean_Insured_RWF": 153507.54,
+            "Mean_Uninsured_RWF": 155938.74,
+            "Difference_RWF": -2431.21,
+            "Test_Statistic_t": -0.9364,
+            "P_Value": 0.3491287949166245,
+            "Degrees_of_Freedom": 2763.52,
+            "Mann_Whitney_U_Stat": 2560551.0,
+            "Mann_Whitney_P_Value": 0.3534493972058066,
+            "Effect_Size_Cohen_d": -0.029,
+            "Alpha": 0.05,
+            "Reject_H0": false,
+            "Interpretation": "Fail to reject H0: No statistically significant difference in billing amounts between insured and uninsured cohorts at alpha = 0.05."
+        },
+        "Hypothesis_Test_2": {
+            "Name": "One-Way ANOVA: Patient Satisfaction Across 20 Health Facilities",
+            "Business_Question": "Does patient satisfaction rating differ significantly across the 20 healthcare facilities in Rwanda?",
+            "H0": "Mean patient satisfaction is identical across all 20 healthcare facilities (mu_1 = mu_2 = ... = mu_20)",
+            "H1": "At least one healthcare facility has a statistically significantly different mean patient satisfaction rating",
+            "Total_Rated_Appointments": 1756,
+            "Number_of_Facilities": 20,
+            "F_Statistic": 0.7349,
+            "P_Value": 0.7851252672745311,
+            "ANOVA_P_Value": 0.7851252672745311,
+            "Kruskal_Wallis_H_Stat": 13.7999,
+            "Kruskal_Wallis_P_Value": 0.7952304278874006,
+            "Alpha": 0.05,
+            "Reject_H0": false,
+            "Interpretation": "Fail to reject H0: Patient satisfaction ratings are statistically homogeneous across all 20 facilities (p >= 0.05)."
+        },
+        "Hypothesis_Test_3": {
+            "Name": "Chi-Square Test of Independence: Hospital Admission Rates Across Patient Age Groups",
+            "Business_Question": "Is the likelihood of requiring hospital admission significantly dependent on patient age group?",
+            "H0": "Hospital admission is independent of patient age group (P(Admitted | Age Group) = P(Admitted))",
+            "H1": "Hospital admission is significantly dependent on patient age group",
+            "Contingency_Table": {
+                "0": {
+                    "Geriatric (>65)": 1249,
+                    "Middle-Aged (36-55)": 1011,
+                    "Pediatric (0-17)": 868,
+                    "Senior (56-65)": 466,
+                    "Young Adult (18-35)": 820
+                },
+                "1": {
+                    "Geriatric (>65)": 176,
+                    "Middle-Aged (36-55)": 127,
+                    "Pediatric (0-17)": 102,
+                    "Senior (56-65)": 67,
+                    "Young Adult (18-35)": 114
+                }
+            },
+            "Chi2_Statistic": 2.8388,
+            "Degrees_of_Freedom": 4,
+            "P_Value": 0.585154791078486,
+            "Cramers_V": 0.0238,
+            "Alpha": 0.05,
+            "Reject_H0": false,
+            "Interpretation": "Fail to reject H0: Admission rates do not exhibit statistically significant dependency on age group."
+        }
+    }
+}

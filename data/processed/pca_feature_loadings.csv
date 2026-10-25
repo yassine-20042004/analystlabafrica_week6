@@ -1,0 +1,9 @@
+,PC1_Loading,PC2_Loading
+Age,-0.1681,0.6287
+BMI,0.0431,-0.62
+DoctorExperience,-0.5655,0.0807
+DiseaseSeverityScore,0.6575,0.0755
+Amount,0.2262,0.0507
+LengthOfStayDays,0.1678,0.4286
+DepartmentWorkloadIndex,-0.3679,-0.1068
+FacilityPerformanceScore,-0.0563,-0.1019

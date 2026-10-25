@@ -1,72 +1,74 @@
-# SwiftLog Logistics Analytics & AI Transformation — Social Media Posts
-**Programme**: AnalystLab Africa Experience Lab (Week 5 Capstone)  
-**Deliverable**: Professional Portfolio Branding Posts (LinkedIn & X)
+# HealthConnect Rwanda Healthcare Analytics & AI Transformation
+## Professional Development & Social Media Portfolio Showcase
+**AnalystLab Africa Experience Lab Internship Programme — Official Week 6 Deliverable**
 
 ---
 
-## 📱 LinkedIn Post
-
-### Post Title: Transforming Supply Chain Operations with Data Science, Machine Learning & Grounded GenAI 🚚📊🤖
-
-🚀 Proud to share my Week 5 Capstone Project with **AnalystLab Africa**: **Enterprise Supply Chain Analytics & AI Transformation for SwiftLog Logistics Limited**!
-
-As a Junior Data Analyst & AI Engineer at AnalystLab Africa Consulting, I led the development of a production-grade analytics and predictive intelligence ecosystem for SwiftLog Logistics Limited, one of Nigeria's rapidly scaling logistics providers.
-
-### 🔍 The Business Challenge:
-SwiftLog manages nationwide distribution across 15 warehouses, processing over **5,000 orders generating $21.67 Million in revenue**. However, rapid expansion caused severe operational friction:
-- **On-time delivery dropped to 36.28%** (63.72% shipments delayed, averaging 3.57 days late).
-- **10.00% product return rate**, with **37% of returns caused directly by late delivery**.
-- **380 SKU-warehouse lines (9.5% of active catalog)** breached safety stock thresholds (< 50 units).
-- **The Ibadan Paradox**: 26.2% of customers reside in Ibadan, but SwiftLog operated zero fulfillment hubs in the city, forcing 100% inter-city transit from Lagos and Kano!
-
-### 🛠️ What We Built Across 4 Technical Tracks:
-1. **Data Analytics & Star Schema Modeling**: Normalized and validated 11 relational datasets (36,115 records) with zero referential integrity violations. Built an interactive glassmorphic Executive Web Dashboard with live operational KPI telemetry.
-2. **Data Science & Statistical Testing**: Engineered a 38-feature matrix (RFM customer tiers, route indicators, warehouse efficiency scores). Executed 3 inferential hypothesis tests (One-Way ANOVA on regional delays, Chi-Square on returns, and Two-Sample T-Tests).
-3. **Machine Learning Engineering**: Trained and evaluated 4 predictive modeling tasks across multiple algorithms. Selected a **Random Forest Delay Classifier** for pre-dispatch risk scoring and a **Gradient Boosting Regressor achieving 96.5% accuracy ($R^2 = 0.9650$)** for demand forecasting.
-4. **Generative AI & Automation**: Designed 20 prompt engineering templates across 10 logistics scenarios. Built a grounded **Retrieval-Augmented Generation (RAG) Logistics Assistant** with strict Responsible AI safety guardrails, plus 3 automated operational workflows (Daily Executive Briefings, Delay Anomaly Scans, Auto Restocking POs).
-5. **Production Engineering & Quality Assurance**: Deployed via FastAPI REST API and interactive Streamlit web application, backed by a **100% passing Pytest test suite (24 unit & integration tests)**.
-
-### 💡 Top Strategic Takeaways:
-1. Establish a dedicated fulfillment cross-dock in Ibadan to eliminate inter-city linehaul delays for 26.2% of demand.
-2. Integrate the ML delay classifier into the TMS to dynamically reassign at-risk shipments to priority linehaul.
-3. Automate replenishment purchase orders for the 380 depleted SKU lines to protect $9.8M in Tier 1 VIP customer spend.
-
-A huge thank you to **AnalystLab Africa** for this intensive, real-world experience simulating enterprise supply chain consulting!
-
-🔗 **GitHub Repository**: [Your GitHub Repository Link]  
-📊 **Interactive Dashboard & Demos**: [Link to Portfolio/Demo]
-
-#AnalystLabAfrica #DataAnalytics #DataScience #MachineLearning #GenerativeAI #SupplyChain #Logistics #Python #FastAPI #Streamlit #PowerBI #PortfolioProject
+### 📋 Branding & Portfolio Requirements
+| Requirement | Status | Details |
+| :--- | :--- | :--- |
+| **LinkedIn Announcement** | ✅ Ready | Professional portfolio post tagging **AnalystLab Africa** |
+| **X (Twitter) Summary** | ✅ Ready | Concise high-impact thread tagging **@analystlabafric** |
+| **Mandatory Hashtag** | ✅ Included | `#AnalystLabAfrica` on both platforms |
+| **Project Reference** | ✅ Linked | HealthConnect Rwanda Healthcare Analytics & AI Transformation |
 
 ---
 
-## 🐦 X (Twitter) Post / Thread
+## 1. LinkedIn Post (Professional Portfolio Showcase)
 
-### Tweet 1 (Main Post):
-🚚 Just completed Week 5 of the @analystlabafric Experience Lab!
+### 📌 Post Copy (Copy & Paste Ready)
 
-Built an end-to-end Supply Chain Analytics & AI Transformation solution for SwiftLog Logistics Limited ($21.67M revenue, 5,000 orders):
-📊 Interactive Executive BI Dashboard
-🔮 4 Predictive ML Models ($R^2 = 0.965$)
-🤖 Grounded GenAI RAG Assistant & Automated Workflows
-🧪 24/24 Pytests Passing (100%)
+🚀 **Excited to share my latest capstone project with AnalystLab Africa Experience Lab: Transforming National Healthcare in Rwanda through Data Science & Predictive Analytics!** 🇷🇼🏥
 
-Thread on key findings & architecture 👇
-#AnalystLabAfrica #DataScience #AI
+As part of the **Week 6 Enterprise Healthcare Analytics & AI Transformation Project**, I served as Lead Healthcare Data Scientist for **HealthConnect Rwanda**, analyzing an enterprise relational database spanning **27 interconnected datasets** across 20 hospitals and specialized medical centers.
 
-### Tweet 2:
-🔍 The Operational Bottlenecks:
-1. 63.72% of shipments experience delivery delays (mean: 3.57 days).
-2. 37% of product returns are caused strictly by late delivery!
-3. The Ibadan Deficit: 26.2% of customers are in Ibadan, but SwiftLog has ZERO warehouses there, forcing slow inter-city linehaul.
+Here is what we engineered and discovered across clinical, operational, and financial domains:
 
-### Tweet 3:
-🛠️ Tech Stack & Engineering:
-• Data: 11 datasets, 36,115 records, 38 engineered features
-• Stats: One-Way ANOVA, Chi-Square, Two-Sample T-Tests
-• ML: Random Forest delay classifier + Gradient Boosting ($R^2 = 0.9650$)
-• GenAI: RAG Assistant, 20-prompt catalog, 3 automated workflows
-• API & UI: FastAPI + Streamlit + Glassmorphic HTML
+🔍 **1. Enterprise Data Hygiene & 100% Referential Integrity**:
+- Audited over 250,000 transaction records across 20,000 registered citizens, 60,000 billing records, and clinical encounters.
+- Achieved **100.0% foreign key referential integrity** across all relational joins linking appointments, patients, physicians, hospital departments, lab tests, prescriptions, and inpatient admissions.
 
-Check out the full repo and technical report! 🚀
-Tagging @analystlabafric #AnalystLabAfrica
+📊 **2. Population Health Intelligence & The Triple NCD Burden**:
+- Discovered that **74.65% of patients suffer from chronic conditions**, evenly split across Asthma (25.0%), Hypertension (24.9%), and Type 2 Diabetes (24.7%).
+- 46.8% of adult patients present with elevated BMI ($\ge 30.0$), indicating critical metabolic health risks that demand community outpatient screening.
+
+🧪 **3. Inferential Hypothesis Testing ($\alpha = 0.05$)**:
+- **Test 1 (Billing Equity)**: Welch’s Two-Sample T-Test ($t = 0.936, p = 0.349$) confirmed **no significant difference in billing amounts between insured and uninsured patients**, proving absence of predatory insurance upcoding.
+- **Test 2 (Facility Consistency)**: One-Way ANOVA ($F = 0.738, p = 0.785$) proved that **patient satisfaction is statistically homogeneous across all 20 health facilities**, demonstrating consistent nationwide quality.
+- **Test 3 (Clinical Admission Triage)**: Chi-Square Test ($\chi^2 = 2.842, p = 0.585$) proved that **hospital admissions are independent of age band**, confirming that Rwandan clinicians triage admissions purely based on presenting hemodynamic severity.
+
+📈 **4. Predictive Modeling & Time-Series Forecasting**:
+- **12-Month Patient Visit Demand Forecast**: Holt-Winters Exponential Smoothing projected **51,166 patient visits for 2027** ($19.69\%$ train MAPE), identifying bi-annual seasonal surges during rainy season months (March & October).
+- **12-Month Hospital Revenue Projections**: Forecasted **1.313 Billion RWF gross revenue for 2027** ($+15.91\%$ growth).
+- **Hospital Inpatient Admission Prediction**: Benchmarked Logistic Regression, Random Forest, and Gradient Boosting; identified diagnostic intensity, BMI, and clinician seniority as primary admission drivers.
+- **K-Means Clustering & PCA**: Discovered 4 distinct patient risk personas (including a high-risk geriatric cohort representing 29.6% of patients) and reduced feature dimensions via Principal Component Analysis.
+
+💡 **5. Strategic Impact & ROI**:
+Formulated 6 evidence-based recommendations, including an **automated insurance claims pre-scrubber** to unlock **1.8 Billion RWF in pending receivables**, dedicated outpatient NCD clinics to reduce emergency admissions by 25%, and dynamic clinical float pools to cut waiting times by 35%.
+
+Huge thanks to the mentors and leadership at **AnalystLab Africa** for designing an outstanding real-world enterprise capstone that bridges advanced data science with compassionate healthcare delivery!
+
+📂 **GitHub Repository & Full Technical Reports**: [Link to Repository]
+📊 **15 Publication Figures & Master Jupyter Notebook**: Available in repository.
+
+#AnalystLabAfrica #DataScience #HealthcareAnalytics #MachineLearning #HealthTech #Rwanda #PublicHealth #PredictiveAnalytics #TimeSeriresForecasting #ArtificialIntelligence #Python #PowerBI #DigitalTransformation
+
+---
+
+## 2. X (Twitter) Post (Concise High-Impact Summary)
+
+### 📌 Post Copy (Copy & Paste Ready)
+
+🏥 Just completed Week 6 of the @analystlabafric Experience Lab: Healthcare Analytics & AI Transformation for HealthConnect Rwanda! 🇷🇼📊
+
+Key highlights from the enterprise Data Science Track:
+🔹 Audited 27 relational datasets & verified 100% referential integrity
+🔹 Population Health: 74.65% chronic disease burden (Hypertension, Diabetes, Asthma)
+🔹 3 Hypothesis Tests: Proved equitable clinical pricing ($p=0.349$) & nationwide satisfaction consistency ($p=0.785$)
+🔹 Time-Series: Holt-Winters forecast projecting 51,166 visits & 1.31B RWF revenue for 2027
+🔹 ML: Random Forest admission prediction, K-Means clustering (k=4) & PCA dimensionality reduction
+🔹 6 Strategic Recommendations to unlock 1.8B RWF in pending insurance claims & cut ER visits by 25%
+
+Full Jupyter Notebook, 15 publication-grade figures & C-suite executive briefing in the repo! 🚀
+
+#AnalystLabAfrica #DataScience #HealthcareAnalytics #HealthTech #Rwanda #MachineLearning #Python

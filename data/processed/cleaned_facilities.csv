@@ -1,0 +1,21 @@
+FacilityID,FacilityName,FacilityType,Ownership,ProvinceName,DistrictID,DoctorCount,NurseCount,TotalStaff,TotalBeds
+HF001,HealthConnect Referral Hospital - Facility HF001,Referral Hospital,Government,Kigali City,D001,18,35,53,100
+HF002,HealthConnect Provincial Hospital - Facility HF002,Provincial Hospital,Private,Eastern,D002,18,35,53,100
+HF003,HealthConnect District Hospital - Facility HF003,District Hospital,Faith Based,Northern,D003,18,35,53,100
+HF004,HealthConnect General Hospital - Facility HF004,General Hospital,NGO,Southern,D004,18,35,53,100
+HF005,HealthConnect Referral Hospital - Facility HF005,Referral Hospital,Government,Western,D005,18,35,53,100
+HF006,HealthConnect Provincial Hospital - Facility HF006,Provincial Hospital,Private,Kigali City,D006,18,35,53,100
+HF007,HealthConnect District Hospital - Facility HF007,District Hospital,Faith Based,Eastern,D007,18,35,53,100
+HF008,HealthConnect General Hospital - Facility HF008,General Hospital,NGO,Northern,D008,18,35,53,100
+HF009,HealthConnect Referral Hospital - Facility HF009,Referral Hospital,Government,Southern,D009,18,35,53,100
+HF010,HealthConnect Provincial Hospital - Facility HF010,Provincial Hospital,Private,Western,D010,18,35,53,100
+HF011,HealthConnect District Hospital - Facility HF011,District Hospital,Faith Based,Kigali City,D011,17,35,52,100
+HF012,HealthConnect General Hospital - Facility HF012,General Hospital,NGO,Eastern,D012,17,35,52,100
+HF013,HealthConnect Referral Hospital - Facility HF013,Referral Hospital,Government,Northern,D013,17,35,52,100
+HF014,HealthConnect Provincial Hospital - Facility HF014,Provincial Hospital,Private,Southern,D014,17,35,52,100
+HF015,HealthConnect District Hospital - Facility HF015,District Hospital,Faith Based,Western,D015,17,35,52,100
+HF016,HealthConnect General Hospital - Facility HF016,General Hospital,NGO,Kigali City,D016,17,35,52,100
+HF017,HealthConnect Referral Hospital - Facility HF017,Referral Hospital,Government,Eastern,D017,17,35,52,100
+HF018,HealthConnect Provincial Hospital - Facility HF018,Provincial Hospital,Private,Northern,D018,17,35,52,100
+HF019,HealthConnect District Hospital - Facility HF019,District Hospital,Faith Based,Southern,D019,17,35,52,100
+HF020,HealthConnect General Hospital - Facility HF020,General Hospital,NGO,Western,D020,17,35,52,100
